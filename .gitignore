@@ -1,0 +1,5 @@
+.env
+node_modules/
+cat.png
+dog.png
+README.md
