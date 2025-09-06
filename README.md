@@ -2,7 +2,7 @@
 
 A simple web application for listing hotels or rooms, similar to Airbnb. Users can view listings, leave reviews, and authenticated users can create, edit, or delete their listings.
 
-🚀 **Check out the live version here:** [Deployed Link](https://wanderlust-0dpf.onrender.com/signup)
+🚀 **Check out the live version here:** [Deployed Link](https://wanderlust-0dpf.onrender.com/listings)
 
 ## Features
 
