@@ -51,7 +51,7 @@ const store = MongoStore.create({
   touchAfter: 24 * 3600,
 });
 
-store.on('error', () => {
+store.on('error', (err) => {
   console.log('Error on mongo store', err);
 });
 
@@ -168,6 +168,8 @@ app.use((req, res, next) => {
   res.locals.success = req.flash('success');
   res.locals.error = req.flash('error');
   res.locals.currentUser = req.user;
+  // res.locals.currentUser = req.user ||null;
+
   next();
 });
 
